@@ -4,3 +4,4 @@ yfinance
 streamlit
 dhanhq
 setuptools
+numpy==1.24
