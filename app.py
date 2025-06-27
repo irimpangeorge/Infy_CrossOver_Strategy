@@ -42,7 +42,7 @@ def place_order(order_type):
         transaction_type=getattr(dhan, order_type),
         quantity=QUANTITY,
         order_type=dhan.MARKET,
-        product_type=dhan.INTRADAY,
+        product_type=dhan.CNC,
         price=0
     )
     st.success(f"{datetime.now()} → {order_type} order placed successfully!")
